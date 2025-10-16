@@ -32,7 +32,6 @@ img {
     height: 374px; /* Altura da imagem */
     flex-shrink: 0; /* Impede que a imagem encolha */
     margin-top: 50px; /* Espaçamento superior */
-    animation: spin 4s linear infinite; /* Animação de rotação */
 }
 
 h2 {
@@ -106,3 +105,5 @@ input {
 .input-min {
     margin-right: 62px;
 }
+
+
