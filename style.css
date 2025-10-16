@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+
+
+
+
+
+}
+
+body {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    flex-direction: column;
+    /* Alinha os itens em coluna */
+    min-width: 100vh;
+    /* Garante que o corpo ocupe toda a altura da viewport */
+    min-height: 100vh;
+    /* Garante que o corpo ocupe toda a altura da viewport */
+
+}
+
+img {
+    width: 583px;
+    height: 374px;
+    flex-shrink: 0;
+    animation: spin 4s linear infinite;
+}
+
+h2 {
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 126px;
+    margin-bottom: 50px;
+
+
+}
+
+button {
+    width: 342px;
+    height: 78px;
+    background-color: #99fe1e;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0 76px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
+    margin-top: 80px;
+    cursor: pointer;
+
+
+}
+
+
+button:hover {
+    background-color: #7ccc17;
+    opacity: 0,9;
+    
+}
+
+
+input {
+    width: 342px;
+    height: 78px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding-left: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 16px;
+    box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
+    align-items: center;
+    padding: 13px 233px 30px 16px;
+    background: rgba(255, 255, 255, 0.25);
+
+}
+
+.input-min {
+    margin-right: 62px;
+}
