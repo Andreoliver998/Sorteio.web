@@ -69,6 +69,7 @@ button {
     box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
     margin-top: 80px;
     cursor: pointer;
+    margin-bottom: 100px;
 
 
 }
@@ -105,5 +106,19 @@ input {
 .input-min {
     margin-right: 62px;
 }
+
+
+h1 {
+    font-family: Roboto;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #ff9903;
+    margin-bottom: 0px;
+    margin-top: 20;
+    
+}
+    
 
 
