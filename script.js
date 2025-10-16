@@ -10,7 +10,10 @@ function generateNumber() {
     const result = Math.floor(Math.random() * (max - min + 1)) + parseInt(min);    // Exibe o resultado
     resultNumber.innerText = result; // mostra o número sorteado na tela
 
-    
+    if (max <= min)  { // verifica se o valor máximo é menor que o mínimo
+        alert("O primeiro valor tem que ser menor.") // alerta se o valor máximo for menor que o mínimo
+        resultNumber.innerText = 0; // reseta o número sorteado para 0
+    }
 } 
 
 
